@@ -1,0 +1,115 @@
+.container {
+  width: 350px;
+  height: 450px;
+  box-shadow: 0px 10px 30px grey;
+  margin: 5rem auto 2rem auto;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.register {
+  position: absolute;
+  width: 350px;
+  height: 290px;
+  display: none;
+}
+
+.login {
+  position: absolute;
+  width: 350px;
+  height: 290px;
+  /* background-color: green; */
+  /* display: none; */
+}
+
+#signup-btn {
+  position: relative;
+  background-color: white;
+  float: left;
+  width: 175px;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  /* box-shadow: -5px -5px 10px rgb(94, 92, 92) inset; */
+}
+
+#login-btn {
+  position: relative;
+  float: left;
+  width: 175px;
+  padding: 15px 0 15px 0;
+  background-color: blue;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-inputs{
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    top: 4em;
+}
+
+input{
+    width: 250px;
+    display: block;
+    margin: 1em auto;
+    margin-left: 0;
+    padding: 0.5em;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rule{
+    position: relative;
+    top: 300px;
+}
+
+i{
+    z-index: 5;
+    float: left;
+    margin: 10px 10px;
+    color: gray;
+    position: relative;
+    left: 50px;
+}
+
+#username{
+    position: relative;
+    left: 10px;
+}
+
+.social-icons{
+    position: relative;
+    top: 290px;
+    margin: 0 auto;
+}
+
+.social-icons i{
+    padding: 5px 10px;
+    color: white;
+    background-color:darkgray ;
+    border-radius:10% ;
+}
+
+.social-icons i:hover{
+    background-color:black ;
+}
+
+.btn-login{
+    width: 100px;
+    float: right;
+    margin: 20px;
+    border-radius: 10%;
+    background-color: blue;
+    color: wheat;
+}
